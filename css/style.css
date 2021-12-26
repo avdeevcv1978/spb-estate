@@ -1,0 +1,102 @@
+
+
+
+
+*{
+  box-sizing: border-box;
+	
+}
+
+body{
+  font-family: "PT Serif", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	
+}
+
+.header{
+	padding: 30px 0 25px 0;
+
+}
+
+.wrapper{
+	width: 1000px;
+  margin: 0 auto;
+  
+  }
+
+.header-navbar{
+	display: flex;
+  align-items: flex-end;
+}
+
+ .navbar-phone{
+ 	text-decoration: none;
+ 	cursor: pointer;
+ 	font-family: "PT Serif", Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size: 27px;
+font-weight: 400;
+font-style: normal;
+color: #FF0D29;
+line-height: 1.07em;
+letter-spacing: 0em;
+ }
+
+
+.logo2{
+	height: 51px;
+	
+}
+
+nav{
+
+}
+
+.navbar-menu{
+	display: flex;
+	margin: 0 ;
+	padding: 0;
+	justify-content: space-between;
+}
+
+nav ul li{
+	list-style: none;	
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+nav ul li:last-child{
+	margin-right: 0px;
+}
+
+nav ul li a{
+text-decoration: none;
+font-family: "PT Serif", Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size: 13px;
+font-weight: 400;
+font-style: normal;
+color: #A68A6A;
+line-height: 1.07em;
+text-transform: uppercase;
+}
+
+.auth-link{
+
+    color: #a68a6a;
+    margin: 0 0 15px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    font-family: 'PT Serif', sans-serif;
+    letter-spacing: .02rem;
+    text-decoration: none;
+}
+
+.auth-link::before{
+
+content: "";
+width: 1rem;
+height: 1rem;
+background-image: url(../img/auth.svg);
+background-repeat: no-repeat;
+padding-right: 10px;
+}
+

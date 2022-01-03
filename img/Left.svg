@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 81" width="22" height="81">
+	<title>Left</title>
+	<style>
+		tspan { white-space:pre }
+		.s0{ fill: #ffffff } 
+	</style>
+	<path id="Left" class="s0" d="m21.96-6v0h3.04v0h-3.04h0zm-18.97 46.5l19.17 40.5h-3.03l-19.11-40.5l19.11-40.5h3.03l-19.17 40.5z" />
+</svg>

@@ -2,7 +2,8 @@
 
 
 $(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
+  $('.slide-one').owlCarousel({
+		loop:true, 
   	items:1,
   	margin:20,
   	nav: true,
@@ -13,3 +14,14 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+  $('.slide-two').owlCarousel({
+  	items:2,
+  	loop:true,
+  	margin:20,
+  	// nav: true,
+		
+
+  });
+
+});

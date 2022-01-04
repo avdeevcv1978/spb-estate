@@ -14,12 +14,14 @@ body{
 
 .header{
 	padding: 20px 0px 22px;
+	background-image: url(../img/bg-header.png);
 
 }
 
 .wrapper{
 	max-width: 1000px;
   margin: 0 auto;
+ /* overflow: hidden;*/
   
   }
 
@@ -152,6 +154,8 @@ background-color: unset !important;
 .slider .owl-dots{
 	position: relative;
 	top: -144px;
+  padding-bottom: 15px;
+
 }
 
 /*****************Слайдер 2**********************/
@@ -163,6 +167,11 @@ background-color: unset !important;
 
 .slider2-title{
 	margin: 0;
+}
+
+.slider2 .owl-dots{
+	  padding-bottom: 15px;
+
 }
 
 .slider2-descr{
@@ -229,18 +238,77 @@ background-color: unset !important;
 
 .news{
 	background-color: #f2f2f2;
+  padding-top: 114px;
+  overflow: hidden
+
 }
 
+.news-img img{
+	height: 100%;
 
+  }
 
 .news-descr{
 	margin: 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+  margin-bottom: 39px;
+
 }
 
 
 .news h1{
 	margin: 0;
+	   font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "PT Serif", Arial, "Helvetica Neue", Helvetica, sans-serif;
+
 }
+
+.news-descr a{
+	text-decoration: none;
+	
+    color: #1e252d;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 46px;
+    
+}
+
+ul{
+	padding: 0;
+	overflow: hidden;
+}
+.news li{
+	display: flex;
+}
+
+.news li a{
+	text-decoration: none;
+	color: #1e252d;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+
+
+  }
+	
+.news li p{
+	color: #919190;
+    font-weight: 300;
+    font-stretch: normal;
+    font-size: 17px;
+    line-height: 36px;
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.info{
+	background-color: #ffff;
+	padding: 40px 50px 30px;
+
+
+}
+

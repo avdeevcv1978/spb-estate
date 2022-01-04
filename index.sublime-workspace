@@ -1,0 +1,408 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"class"
+			],
+			[
+				"mas",
+				"mas2"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"b",
+				"button"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"le",
+				"left\tproperty"
+			],
+			[
+				"s",
+				"space-between\tjustify-content"
+			],
+			[
+				"o",
+				"ogv"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"min-",
+				"min-height\tproperty"
+			],
+			[
+				"he",
+				"height\tproperty"
+			],
+			[
+				"a",
+				"auto\tmargin"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"d",
+				"date"
+			],
+			[
+				"ar",
+				"arg1"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal pack",
+				"Package Control: Install Package"
+			],
+			[
+				" Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Package Control: Add Channel"
+			],
+			[
+				"Package Control i",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Build: Cancel"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/user/Desktop/sait/spb estate/css/style.css",
+		"/C/Users/user/Desktop/sait/spb estate/index.html",
+		"/C/Users/user/Desktop/sait/spb estate/css/owl.carousel.min.css",
+		"/C/Users/user/Desktop/sait/spb estate/img/slider/sl1.jpg",
+		"/C/Users/user/Desktop/sait/spb estate/img/logo2.svg",
+		"/C/Users/user/Desktop/sait/spb estate/fonts/fonts.css",
+		"/C/Users/user/Desktop/sait/spb estate/img/person.svg",
+		"/C/Users/user/Desktop/sait/spb estate/img/arrow-right.svg",
+		"/C/Users/user/Desktop/sait/spb estate/img/logo.svg",
+		"/C/Users/user/Desktop/sait/spb estate/img/arrow-left.svg",
+		"/E/Интенсивы GloAcademy/Мелодия/сайт мелодия/fonts/fonts.css",
+		"/E/Интенсивы GloAcademy/Интенсив Свой Willberries JS/558858526e97b953eb3b9578869949ef/wildberris-исходник/js/getgoods.js",
+		"/E/Интенсивы GloAcademy/Интенсив Свой Willberries JS/558858526e97b953eb3b9578869949ef/wildberris-исходник/db/img/61qMUpjOx7L.jpg",
+		"/E/Интенсивы GloAcademy/Сервис доставки еды на JS/delivery копия/img/icon/rating.svg",
+		"/E/Интенсивы GloAcademy/Промостраница «Мерседес» на JS/Мерседес/js/smoothScroll.js",
+		"/E/Интенсивы GloAcademy/Сервис доставки еды/Доставка еды/js/main.js",
+		"/E/Интенсивы GloAcademy/Сервис доставки еды/Доставка еды/img/autumn.png",
+		"/E/Интенсивы GloAcademy/Сервис доставки еды/Доставка еды/img/instagram.svg",
+		"/E/Интенсивы GloAcademy/Сервис доставки еды/Доставка еды/img/vk.svg",
+		"/E/Интенсивы GloAcademy/Сервис доставки еды/Доставка еды/img/vk.png",
+		"/E/Интенсивы GloAcademy/Промостраница «Мерседес» на JS/Мерседес 2/js/smoothScroll.js",
+		"/C/Users/user/Desktop/sait/bootstrap kinomir/reuting.html",
+		"/E/Frontend prof/Less/Яндекс Практикум (пример вёрстки)/yandex-sprint1/index.html",
+		"/C/Users/user/Desktop/sait/Yoga/css/style.css",
+		"/C/Users/user/Desktop/sait/Yoga/img/classes/bg-classes.png",
+		"/C/Users/user/Desktop/sait/Yoga/img/classes/foto1.png",
+		"/C/Users/user/Desktop/sait/Yoga/img/classes/foto3.png",
+		"/C/Users/user/Desktop/sait/Yoga/img/classes/foto2.png",
+		"/C/Users/user/Desktop/sait/Yoga/css/fontawesome.min.css",
+		"/C/Users/user/Desktop/sait/Yoga/img/img.every/light.png",
+		"/C/Users/user/Desktop/sait/Yoga/img/bg-fon.jpg",
+		"/C/Users/user/Desktop/sait/Yoga/img/bg-girl.png",
+		"/C/Users/user/Desktop/sait/Yoga/img/logo.png",
+		"/C/Users/user/Desktop/sait/Yoga/img/yoga2.jpg",
+		"/C/Users/user/Desktop/sait/Yoga/img/new.png",
+		"/C/Users/user/Desktop/sait/portfolio/js/jquery-3.3.1.min.js",
+		"/C/Users/user/Desktop/sait/portfolio/images/bg-header2.jpeg",
+		"/C/Users/user/Desktop/sait/portfolio/images/bg-header.jpg",
+		"/C/Users/user/Desktop/sait/Bootstrap 4 kinomir/test.html",
+		"/C/Users/user/Desktop/sait/Bootstrap 4 kinomir/js/main.js",
+		"/C/Users/user/Desktop/sait/Bootstrap 4 kinomir/js/bootstrap.min.js",
+		"/C/Users/user/Desktop/sait/Bootstrap 4 kinomir/bootstrap-4.3.1-dist/css/bootstrap.css",
+		"/C/Users/user/Desktop/sait/Bootstrap 4 kinomir/bootstrap-4.3.1-dist/css/bootstrap.min.css",
+		"/C/Users/user/Desktop/sait/bootstrap habr.com/images/Classic.jpg",
+		"/C/Users/user/Desktop/sait/bootstrap habr.com/images/port1.png",
+		"/C/Users/user/Desktop/sait/bootstrap habr.com/images/bg.png",
+		"/C/Users/user/Desktop/sait/bootstrap habr.com/images/inter.png",
+		"/C/Users/user/Desktop/sait/bootstrap habr.com/main.js",
+		"/C/Users/user/Desktop/sait/Bootstrap 4 kinomir/css/main.css",
+		"/C/Users/user/Desktop/sait/bootstrap kinomir/films.html",
+		"/C/Users/user/Desktop/sait/bootstrap kinomir/show.html",
+		"/C/Users/user/Desktop/sait/bootstrap kinomir/css/style.css",
+		"/C/Users/user/Desktop/sait/maket psd_1 — копия/images/portf_2.png",
+		"/C/Users/user/Desktop/sait/maket psd_1 — копия/js/slick.min.js",
+		"/C/Users/user/Desktop/sait/maket psd_1/index.html",
+		"/C/Users/user/Desktop/sait/maket psd_1 — копия/css/owl.carousel.css",
+		"/C/Users/user/Desktop/sait/maket psd_1 — копия/images/stalone.jpg",
+		"/C/Users/user/Desktop/sait/maket psd_1 — копия/images/Crayon_icon.png",
+		"/C/Users/user/Desktop/sait/maket psd_1 — копия/images/icon-88.png",
+		"/C/Users/user/Desktop/sait/maket psd_1 — копия/images/icon-75.png",
+		"/C/Users/user/Desktop/sait/maket psd_1 — копия/images/Flag_icon.png",
+		"/C/Users/user/Desktop/sait/maket psd_1 — копия/images/Fb-icon.png",
+		"/C/Users/user/Desktop/sait/maket psd_1 — копия/js/jquery.fancybox.min.js",
+		"/C/Users/user/Desktop/sait/maket psd_1 — копия/images/icon-70.png",
+		"/C/Users/user/Desktop/sait/401/JS/script.js",
+		"/C/Users/user/Desktop/sait/401/JS/js/script.js",
+		"/C/Users/user/Desktop/sait/401/myprogect/css/style.css",
+		"/C/Users/user/Desktop/sait/401/myprogect/img/bg.png",
+		"/C/Users/user/Desktop/sait/401/final_promovideolab/fonts/bikham-cyr-script_[allfont.ru].ttf",
+		"/C/Users/user/Desktop/sait/401/position/bootstrap-4.6.0-dist/css/bootstrap.min.css",
+		"/C/Users/user/Desktop/sait/401/position/style.css",
+		"/C/Users/user/Desktop/sait/codeformyself-1/promovideolab/index.html",
+		"/C/Users/user/Desktop/sait/codeformyself-1/promovideolab/css/style.css",
+		"/C/Users/user/Desktop/sait/Final LP Frontend — копия/css/style.css",
+		"/C/Users/user/Desktop/sait/Final LP Frontend — копия/index.html",
+		"/C/Users/user/Desktop/sait/Mortal Combat/index.html",
+		"/C/Users/user/Desktop/Программирование/JS BattleShip.txt",
+		"/C/Users/user/Desktop/sait/Mortal Combat/css/style.css",
+		"/C/Users/user/Desktop/sait/rsschool-cv/css/style.css",
+		"/C/Users/user/Desktop/sait/rsschool-cv/index.html",
+		"/C/Users/user/Desktop/sait/EXE greed/sass/blocks/banner.scss",
+		"/C/Users/user/Desktop/sait/EXE greed/index.html",
+		"/C/Users/user/Desktop/sait/EXE greed/sass/mixins.scss",
+		"/C/Users/user/Desktop/sait/maket psd_1/js/main.js",
+		"/C/Users/user/Desktop/sait/EXE greed/build/css/style.min.css",
+		"/C/Users/user/Desktop/sait/EXE greed/img/client2.png",
+		"/C/Users/user/Desktop/sait/EXE greed/img/client4.png",
+		"/C/Users/user/Desktop/sait/EXE greed/img/img3.jpg",
+		"/C/Users/user/Desktop/sait/EXE greed/img/img5.jpg",
+		"/C/Users/user/Desktop/sait/EXE greed/img/link.svg",
+		"/C/Users/user/Desktop/sait/viking/css/style.css",
+		"/C/Users/user/Desktop/sait/viking/index.html",
+		"/C/Users/user/Desktop/sait/viking/images/season_img1.png",
+		"/C/Users/user/Desktop/sait/viking/images/cover_foto.jpg",
+		"/C/Users/user/Desktop/sait/viking/images/лого 1.png",
+		"/C/Users/user/Desktop/sait/maket psd_1/css/style.css",
+		"/C/Users/user/Desktop/sait/EXE greed/css/style.css",
+		"/C/Users/user/AppData/Local/Temp/scp48411/www/sites/all/modules/custom/custom.module",
+		"/C/Users/user/AppData/Local/Temp/scp31696/www/sites/all/themes/newtheme4/css/style.css",
+		"/C/Users/user/AppData/Local/Temp/scp46221/www/sites/all/modules/custom/custom.info",
+		"/C/Users/user/AppData/Local/Temp/scp11216/www/sites/all/themes/newtheme4/newtheme4.info",
+		"/C/Users/user/AppData/Local/Temp/scp11244/www/sites/all/themes/newtheme4/templates/page.tpl.php",
+		"/C/Users/user/AppData/Local/Temp/scp14041/www/sites/all/themes/newtheme4/templates/block--custom--jumbotron.tpl.php",
+		"/C/Users/user/AppData/Local/Temp/scp19305/www/sites/all/themes/090121mytheme/index.html",
+		"/C/Users/user/Desktop/111.php",
+		"/C/Users/user/Desktop/цивил предшеств/1123.html",
+		"/C/Users/user/Desktop/rusak.html",
+		"/C/Users/user/Desktop/lesson 2.html",
+		"/C/Users/user/Desktop/rus.php",
+		"/C/Users/user/Desktop/Urok 334.html",
+		"/C/Users/user/Desktop/123.php",
+		"/C/Users/user/Desktop/test.html",
+		"/C/Users/user/Desktop/lesson 2",
+		"/C/Users/user/Desktop/123"
+	],
+	"find":
+	{
+		"height": 29.6
+	},
+	"find_in_files":
+	{
+		"height": 120.8,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.6
+	},
+	"input":
+	{
+		"height": 42.4
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"alert('Привет, мир!')"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 69.6,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

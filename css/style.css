@@ -238,7 +238,6 @@ background-color: unset !important;
 
 .news{
 	background-color: #f2f2f2;
-  padding-top: 114px;
   overflow: hidden
 
 }
@@ -280,6 +279,8 @@ background-color: unset !important;
 ul{
 	padding: 0;
 	overflow: hidden;
+	/*margin-bottom: 174px;*/
+  margin: 0;
 }
 .news li{
 	display: flex;
@@ -312,3 +313,89 @@ ul{
 
 }
 
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-bottom: 95px;
+  padding-top: 40px;
+  position: relative;
+
+}
+
+form:before{
+content: '';
+display: block;
+width: 130px;
+height: 1px;
+position: absolute;
+top: 34%;
+right: 411px;
+background-color: #c5a47e;
+}
+
+
+form input{
+	width: 266px;
+	padding: 10px 13px 9px 13px;
+	margin: 0;
+	color: #1e252d;
+  letter-spacing: -.1px;
+  font: 300 14px/15px 'PT Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+  outline: 0 none;
+  border: 1px solid #cfcfcf;
+  background-color: #fff;
+  /*box-shadow: inset 0px 3px 0px 0px #f3f3f3;*/
+  cursor: pointer;
+  
+
+}
+
+
+
+input:focus {
+background: #eaeaea;
+
+}
+.submit{
+    display: inline-block;
+    padding: 11px 19px 10px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -.2px;
+    font: 300 14px/15px 'PT Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: none;
+    background-color: #c5a47e;
+    width: 113px;
+
+}
+
+
+/********************section class="news end"******************/
+
+
+/********************section class="information"******************/
+
+.information h1{
+	margin:0;
+  font-weight: 702;
+  font-size: 19px;
+  line-height: 26px;
+  color: #1e252d;
+  letter-spacing: -.4px;
+  padding-top: 72px;
+  padding-bottom: 41px;
+
+}
+
+.information p{
+	margin:0;
+	color: #1e252d;
+  letter-spacing: -.2px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding-bottom: 129px;
+
+}

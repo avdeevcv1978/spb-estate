@@ -462,6 +462,12 @@ background: #eaeaea;
 
     /*************************footer********************************/
 
+.footer{
+      margin-bottom: 50px;
+
+}
+
+
 .footer-list{
   width: 325px;
   padding: 38px 0;
@@ -520,4 +526,117 @@ footer span{
     font-family: "PT Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+  /*************************footer end********************************/
+
+  /*************************<section class="fixed ">********************************/
+
+
+  .fixed{
+    height: 50px;
+    min-width: 1000px;
+   background-color: #252429;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    /*padding-bottom: 100px;*/
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+      }
+
+ 
+  .fixed-img{
+    padding-left: 25px;
+    padding-top: 24px;
+    padding-right: 28px;
+    
+    }
+
+
+  .fixed-link:after{
+    content: '';
+    background-color: #70706f;
+    height: 50px;
+    width: 1px;
+    position: absolute;
+    float: left;
+  }
+
   
+
+.fixed span{
+  color: #ffff;
+  
+}
+.fixed ul a{
+  text-decoration: none;
+}
+
+
+.fixed .right-block .favor a:before{
+  content: '';
+    display: block;
+    width: 20px;
+    height: 17px;
+    float: left;
+    margin-right: 5px;
+    /*position: relative;*/
+    top: 4px;
+    background: url(../img/fixed/star.svg)  no-repeat;
+}
+
+.fixed .right-block .show a:before{
+  content: '';
+    display: block;
+    width: 20px;
+    height: 17px;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+    background: url(../img/fixed/yea.svg)  no-repeat;
+}
+
+
+.fixed .right-block .consalt a:before{
+  content: '';
+    display: block;
+    width: 20px;
+    height: 17px;
+    float: left;
+    margin-right: 5px;
+    /*position: relative;*/
+    top: 4px;
+    background: url(../img/fixed/phone.svg)  no-repeat;
+}
+
+.fixed  a{
+  text-decoration: none;
+}
+
+.right-block{
+  display: flex;
+  
+}
+
+.fixed .right-block .favor{
+  border-left: 1px solid #515054;
+  padding: 13px 20px 17px;
+
+}
+
+.fixed .right-block .show{
+  border-left: 1px solid #515054;
+  padding: 13px 20px 17px;
+
+}
+
+ .right-block .consalt{
+background: #a68a6a;
+padding: 13px 20px 17px;
+
+
+}
+
+/*************************<section class="fixed end">********************************/

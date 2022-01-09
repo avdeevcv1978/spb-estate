@@ -47,14 +47,16 @@
 			</ul>
 			
 		</nav>
-	
+	<div class="burger">
+		<button class="btn-burger"></button>
+	</div>
 
 		</div>
 		<!-- header-navbar -->
 		
 	</div>
 	<!-- wrapper -->
-
+	
 </header>
 
 <div class="slider">
@@ -76,7 +78,7 @@
 	<div class="slider2">
 		<div class="wrapper">
 			<div class="slider2-descr">
-				<h2 class="slider2-title">Лучшие спецпредложения</h2>
+				<h2 >Лучшие спецпредложения</h2>
 				<p><a  href="#">Все спецпредложения</a></p>
 			</div>
 			
@@ -170,6 +172,51 @@
 					</div>
 				</li>
 			</ul>
+
+			<!-- ----------------------hidden------------------------ -->
+
+			<!-- <ul class="hidden">
+				<li>
+					<div class="news-img-hidden">
+						<a href="#">
+							<img src="img/section/1.jpg" alt="">
+						</a>
+					</div>
+					<div class="info-hidden">
+						<a href="">Квартира премиум-класса на первой береговой линии</a>
+									
+					</div>
+				</li> -->
+				<!-- <li>
+					<div class="info">
+						<a href="">Дом сдан! Готовая семейная квартира бизнес-класса </a>
+						<p>17 декабря 2021</p>					
+					</div>
+					<div class="news-img">
+						<a href="#">
+							<img src="img/section/2.jpg" alt="">
+						</a>
+					</div>
+					
+				</li>
+				<li>
+					<div class="news-img">
+						<a href="#">
+							<img src="img/section/3.jpg" alt="">
+						</a>
+					</div>
+					<div class="info">
+						<a href="">Бизнес-класс в окружении парков – от 8,9 млн рублей</a>
+						<p>10 декабря 2021 </p>					
+					</div>
+				</li> -->
+			<!-- </ul> -->
+
+			
+
+			<!-- ----------------------hidden end-------------------------- -->
+
+
 			<form action="">
 				<input type="text" required placeholder=" Подписаться на новости, ваш email">
 				<input class="submit" type="submit" name="yt0" value="Подписаться">
@@ -183,7 +230,57 @@
 		<div class="wrapper">
 			<h1>Элитная недвижимость в Cанкт-Петербурге</h1>
 			<p>
-	Продажа элитной недвижимости — одно из приоритетных направлений деятельности «Петербургской Недвижимости». Среди предложений компании широкий выбор квартир в жилых комплексах бизнес- и премиум-класса, расположенных в престижных районах Санкт-Петербурга как исторических, так и активно развивающихся популярных локациях. «Петербургская Недвижимость» реализует элитные жилые комплексы и дома бизнес-класса в&nbsp;Адмиралтейском,&nbsp;Центральном,&nbsp;Петроградском&nbsp;(на Крестовском и Петровском островах),&nbsp;Приморском,&nbsp;Василеостровском,&nbsp;Московском,&nbsp;Выборгском районах города, а также курортных пригородах.</p>
+	Продажа элитной недвижимости — одно из приоритетных направлений деятельности «Петербургской Недвижимости». <span>Среди предложений компании широкий выбор квартир в жилых комплексах бизнес- и премиум-класса, расположенных в престижных районах Санкт-Петербурга как исторических, так и активно развивающихся популярных локациях. «Петербургская Недвижимость» реализует элитные жилые комплексы и дома бизнес-класса в&nbsp;Адмиралтейском,&nbsp;Центральном,&nbsp;Петроградском&nbsp;(на Крестовском и Петровском островах),&nbsp;Приморском,&nbsp;Василеостровском,&nbsp;Московском,&nbsp;Выборгском районах города, а также курортных пригородах.</span> </p>
+
+
+	   <!-- ----------------------hidden text----- -->
+
+	   <div class="hidden-text">
+	   	 <a href="">Подробнее</a>
+	   </div>
+
+	   <style type="text/css">
+
+
+		.hidden-text{
+			text-align: center;
+	   		display: flex;
+    		justify-content: center;
+    		position: relative;
+		}
+
+
+	   	.hidden-text a{
+	   		text-decoration: none;
+	   		color: #c5a47e;
+    		padding-bottom: 10px;
+    	 }
+
+	   	.hidden-text a::before{
+	content: '';
+	width: 77px;
+    height: 2px;
+    position: absolute;
+    top: 34%;
+    background-color: #c5a47e;
+   right: 60%;
+   }
+
+.hidden-text a::after{
+	content: '';
+	width: 77px;
+    height: 2px;
+    position: absolute;
+    top: 34%;
+    right: 24%;
+    background-color: #c5a47e;
+}
+
+
+	   	
+	   </style>
+
+	   <!-- ----------------------hidden text------ -->
 		
    </div>
 <!-- wrapper -->
@@ -253,7 +350,7 @@
 		</div>
 		<!-- footer-list -->
 
-<div class="footer-list">
+<div class="footer-list-2">
 		<div class="footer-link">
 				<a href="">
 					<img src="img/social/fb.svg" alt="fasebook">
@@ -289,8 +386,8 @@
 
 <section class="fixed ">
 
-	
-		<a class="fixed-link" href="#">
+	<div class="fixed-wrapper">
+			<a class="fixed-link" href="#">
 			<img class="fixed-img"src="img/fixed/arrow-up.svg" alt="">
 		</a>
 
@@ -314,6 +411,12 @@
    </div>
  </div>
   <!-- right-block -->
+	</div>
+	<!-- fixed-wrapper -->
+
+
+	
+	
 
 </section>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

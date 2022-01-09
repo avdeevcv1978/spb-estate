@@ -14,14 +14,27 @@ $(document).ready(function(){
 });
 
 
+
+
 $(document).ready(function(){
   $('.slide-two').owlCarousel({
+    loop:true,
+    margin:20,
   	items:2,
-  	loop:true,
-  	margin:20,
-  	// nav: true,
-		
-
-  });
+    // responsiveClass:true,
+  	 	
+           responsive:{ //Адаптация в зависимости от разрешения экрана
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:2
+                        },
+                        1200:{
+                            items:3
+                        }
+                    }
+           
+		  });
 
 });

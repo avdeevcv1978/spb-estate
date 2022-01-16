@@ -8,7 +8,7 @@ $(document).ready(function(){
   	margin:20,
   	nav: true,
 		navText: ["<img src='img/Left.svg'>", "<img src='img/Right.svg'>"],
-
+     // navText: ["<span></span>", "<span></span>"],
   });
 
 });
@@ -38,3 +38,24 @@ $(document).ready(function(){
 		  });
 
 });
+
+
+ $(document).ready(function(){  //дожидаемся загрузки страницы
+    $('#btn1').on("click", function(){  //вешаем событие на клик по кнопке id="btn1"
+        $('#text').toggle(); //включает/выключает элемент id="text"
+        // $(this).remove(); Удаление этого элемента
+    });
+});
+
+
+  var input = document.querySelector("#phone");
+  window.intlTelInput(input, {
+    // any initialisation options go here
+  });
+
+// // jQuery 
+// $("#telephone").intlTelInput({
+//   // options here
+// });
+
+

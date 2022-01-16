@@ -1,5 +1,7 @@
 
-
+html{
+   scroll-behavior: smooth; /*Для плавной прокрутки*/
+}
 
 
 *{
@@ -42,10 +44,6 @@ line-height: 1.07em;
 letter-spacing: 0em;
  }
 
-.logo1{
- margin-right: 10px;
-
-}
 
 .logo2{
 	height: 51px;
@@ -112,7 +110,7 @@ padding-right: 10px;
             /**********burger*********/
 
 .burger {
-    /*display: none;*/
+    display: none;
     width: 60px;
     height: 60px;
     border-radius: 12px;
@@ -168,6 +166,8 @@ padding-right: 10px;
  .slider{
  	max-height:371px;
   /*max-height:296px;*/
+  /*position: relative;*/
+
  }
 
 
@@ -586,6 +586,7 @@ footer span{
     font-size: 12px;
     line-height: 1;
     font-family: "PT Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 0px;
 }
 
   /*************************footer end********************************/
@@ -593,7 +594,7 @@ footer span{
   /*************************<section class="fixed ">********************************/
 
  .fixed{
-  position: relative;
+  /*position: relative;*/
   margin: 0 auto;
   
  }
@@ -601,8 +602,8 @@ footer span{
 .fixed-wrapper{
 height: 50px;
     background-color: #252429;
-    /*position: fixed;*/
-    position:sticky;
+    position: fixed;
+    /*position:sticky;*/
     overflow: hidden;
     bottom: 0;
     width: 100%;
@@ -829,9 +830,15 @@ form {
 }
 .footer{
 
-margin-bottom: 0px;
+margin-bottom: 50px;
 }
+
   .hidden-text {
+    display: none!important;
+  }
+
+  .hidden-text span:after,
+  .hidden-text span:before {
     display: none;
   }
 }
@@ -922,17 +929,32 @@ padding-top: 35px;
 }
 
 .footer{
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 }
 .hidden-text a{
     display: none;
   }
+
+  
   .hidden-text {
+    display: none!important;
+  }
+
+  .hidden-text span:after,
+  .hidden-text span:before {
     display: none;
   }
+
 }
 
-@media (min-width: 480px) and (max-width: 767px){
+  
+
+
+@media (min-width: 480px) and (max-width: 767.99px) {
+  .navbar-menu{
+    display: none;
+  }
+
   .info{
     display: none;
   }
@@ -942,14 +964,10 @@ padding-top: 35px;
   }*/
 
 .fixed .right-block .favor a:before {
-    content: '';
-    width: 0px;
-    height: 0px;
+    display: none;
  }
  .fixed .right-block .show a:before {
-  content: '';
-   width: 0px;
-  height: 0px;
+  display: none;
   }
 
 .fixed-img{
@@ -982,7 +1000,7 @@ padding-left: 17px;
   padding-right: 10px;
 }
 .footer{
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 }
 .navigation .wrapper{
   padding-left: 10px;
@@ -1010,8 +1028,12 @@ padding-left: 17px;
 }
 .news-img{
 
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 10px;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 form:before {
     content: '';
@@ -1036,7 +1058,13 @@ form:before {
     font-size: 20px;
 }
 .slider {
-    max-height: 128px;
+   
+    max-height: 135px;
+}
+
+.slider2{
+padding-top: 55px;
+
 }
 .slider2-descr{
 padding-top: 11px;
@@ -1050,6 +1078,7 @@ padding-bottom: 15px;
 
 .name{
   text-align: center;
+  padding-top: 4px;
 }
 
 .name p{
@@ -1080,8 +1109,9 @@ footer img{
 }
 .right-block .consalt {
     
-    padding: 5px 20px 17px;
+    padding: 13px 20px 17px;
     text-align: center;
+
 }
 .consalt{
 padding-top: 5px;
@@ -1094,14 +1124,105 @@ padding-top: 5px;
   top: -111px;
 }
 .burger {
+    display: block;
+}
+
+.burger {
     right: 1%;
     position: absolute;
-}
-.logo1{
-padding-left: 10px;
 }
 .information p span{
   display: none;
 }
+.navigation li{
+  padding-right: 9px;
+  margin: auto;
+}
+.navigation li a {
+        font-size: 13px;
+  }
+  .owl-carousel .owl-item img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.fixed-link:after{
+  display: none;
+}
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+
+.contacts .navbar-phone,
+ nav, 
+ .fixed,
+ .navigation h4:after,
+ .news,
+ .slider2,
+ .show-text,
+.owl-theme .owl-nav,
+.foot-info,
+/*.footer-list-2,*/
+.navigation    
+  {
+  display: none;
+}
+
+.burger{
+  display: block;
+}
+.slider .owl-dots {
+    
+     top: 0px; 
+     padding-bottom: 0px; 
+}
+.information h1{
+  padding-top: 10px; 
+  padding-bottom: 0px;
+  font-size: 17px;
+}
+ .logo2{
+  margin: auto;
+  padding: 0px;
+ }
+    
+.information p {
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 0px;
+}
+
+.information .wrapper{
+
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
+
+   .footer-wrap {
+    display: flex;
+   
+} 
+
+.footer{
+  background-color: #f2f2f2;
+  margin: 0px;
+}
+.navbar-phone{
+  display: block;
+  padding-bottom: 6px;
+
+}
+  .footer-list-2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+
+}
+.logo-foot{
+  padding-left: 10px;
+}
+.footer span{
+  color: red;
+}
+}
+

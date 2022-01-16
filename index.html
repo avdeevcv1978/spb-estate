@@ -22,13 +22,11 @@
 <header class="header">	
 	<div class="wrapper">
 		<div class="header-navbar">
-			<a href="">
-				<img class="logo1" src="img/logo.svg" alt="logo: Недвижимость СПБ">
-			</a>
+			
 			
 			<a href="">
 				
-				<img class="logo2" src="img/logo-sprite.svg" alt="logo: Недвижимость СПБ">
+				<img class="logo2" src="img/top-logo.svg" alt="logo: Недвижимость СПБ">
 			</a>
 		
 		<div class="contacts">
@@ -68,6 +66,7 @@
 		            <div class="owl-item"><img src="img/slider/ned5.jpg"  alt=""></div>
 		            <div class="owl-item"><img src="img/slider/ned4.jpg"  alt=""></div>
 		        </div>
+
 		        </div>
 		    </div>
     
@@ -133,6 +132,7 @@
 		<div class="wrapper">
 			<div class="news-descr">
 				<h1 class="news-title">Новости элитной недвижимости</h1>
+				<!-- <div><a class ='anchor'/></div> -->
 				<a  href="#">Все новости</a>
 
 			</div>
@@ -229,53 +229,62 @@
 	<section class="information">
 		<div class="wrapper">
 			<h1>Элитная недвижимость в Cанкт-Петербурге</h1>
-			<p>
-	Продажа элитной недвижимости — одно из приоритетных направлений деятельности «Петербургской Недвижимости». <span>Среди предложений компании широкий выбор квартир в жилых комплексах бизнес- и премиум-класса, расположенных в престижных районах Санкт-Петербурга как исторических, так и активно развивающихся популярных локациях. «Петербургская Недвижимость» реализует элитные жилые комплексы и дома бизнес-класса в&nbsp;Адмиралтейском,&nbsp;Центральном,&nbsp;Петроградском&nbsp;(на Крестовском и Петровском островах),&nbsp;Приморском,&nbsp;Василеостровском,&nbsp;Московском,&nbsp;Выборгском районах города, а также курортных пригородах.</span> </p>
+			<p class="text">
+	Продажа элитной недвижимости — одно из приоритетных направлений деятельности «Петербургской Недвижимости». <span class="show-text" id="text">Среди предложений компании широкий выбор квартир в жилых комплексах бизнес- и премиум-класса, расположенных в престижных районах Санкт-Петербурга как исторических, так и активно развивающихся популярных локациях. «Петербургская Недвижимость» реализует элитные жилые комплексы и дома бизнес-класса в&nbsp;Адмиралтейском,&nbsp;Центральном,&nbsp;Петроградском&nbsp;(на Крестовском и Петровском островах),&nbsp;Приморском,&nbsp;Василеостровском,&nbsp;Московском,&nbsp;Выборгском районах города, а также курортных пригородах.</span> </p>
 
 
 	   <!-- ----------------------hidden text----- -->
 
+
+
+
 	   <div class="hidden-text">
-	   	 <a href="">Подробнее</a>
+	   	<button class="hidden-btn" id="btn1">Подробнее</button>
+	   	
+	   	 <span class="sp-hidden"></span>
 	   </div>
 
 	   <style type="text/css">
 
-
-		.hidden-text{
-			text-align: center;
-	   		display: flex;
-    		justify-content: center;
-    		position: relative;
+	.hidden-text{
+		text-align: center;
+	   	display: flex;
+    	justify-content: center;
+    	position: relative;
 		}
 
+		.hidden-btn{
+			border: none;
+			color: #c5a47e;
+			background: transparent;
+			padding-bottom: 10px;
 
-	   	.hidden-text a{
-	   		text-decoration: none;
-	   		color: #c5a47e;
-    		padding-bottom: 10px;
-    	 }
+		}
 
-	   	.hidden-text a::before{
-	content: '';
+	
+    .hidden-text span{
+    	position: relative;
+    	} 
+
+    .hidden-text span:after {
+    content: '';
+   	width: 77px;
+    height: 2px;
+    position: absolute;
+    top: 34%;
+    right: -85px;
+    background-color: #c5a47e;
+    }
+
+    .hidden-text span:before{
+    content: '';
 	width: 77px;
     height: 2px;
     position: absolute;
     top: 34%;
+    right: 98px;
     background-color: #c5a47e;
-   right: 60%;
-   }
-
-.hidden-text a::after{
-	content: '';
-	width: 77px;
-    height: 2px;
-    position: absolute;
-    top: 34%;
-    right: 24%;
-    background-color: #c5a47e;
-}
-
+    }
 
 	   	
 	   </style>

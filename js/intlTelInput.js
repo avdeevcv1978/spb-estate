@@ -1025,7 +1025,7 @@ var intlTelInput = {
     }, {
         name: "Russian Federation",
         cca2: "ru",
-        "calling-code": "7"
+        "calling-code": "+7"
     }, {
         name: "Rwanda",
         cca2: "rw",

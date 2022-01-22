@@ -1,0 +1,141 @@
+
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+	
+}
+
+body{
+  font-family: "PT Serif", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	
+}
+
+
+.password {
+	position: relative;
+}
+.password-control {
+	position: absolute;
+	top: 26px;
+	right: 6px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/auth/close.png) 0 0 no-repeat;
+}
+.password-control.view {
+	background: url(../img/auth/open.png) 0 0 no-repeat;
+}
+
+.personal{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.personal-link{
+ 
+  text-decoration: none;
+  color: grey;
+  font-size: 12px;
+  font-weight: inherit;
+  line-height: 17px;
+  border-bottom: 1px solid hsla(0,0%,50.2%,.25);
+  letter-spacing: -.5px;
+}
+
+ 	.auth-form{
+ 	padding-left: 40px;
+    padding-right: 40px;
+
+ 	}
+
+ 	
+ 	.auth-form label{
+ 		font-weight: 400;
+    	margin-bottom: 4px !important;
+
+ 	}
+
+ 	.auth-link2{
+ 	display: flex;
+ 	justify-content: center;
+ 	margin-top: 50px;
+ 	margin-bottom: 74px;
+
+
+ 	}
+
+.auth-block{
+	display: flex;
+	justify-content: center;
+}
+ 	.auth-content{
+ 		width: 331px;
+ 		height: 348px;
+ 		box-shadow: 0 0 250px 2px #dedede;
+ 		                 
+ 	}
+ 	.auth-content h2{
+ 	font-size: 1.5em;
+    text-align: center;
+    font-weight: 700;
+ 	}
+
+ .phone{
+ 	padding-bottom: 46px;
+ }
+
+.password{
+  padding-bottom: 35px;
+
+}
+
+.auth-list{
+	display: flex;
+	justify-content: center;
+}
+
+.auth-list li{
+   list-style: none;
+}
+
+.auth-list li a{
+text-decoration: none;
+color: #02101c;
+margin: 8px 8px 4px;
+border-bottom: 2px solid rgba(2,16,28,.25);
+}
+
+.qwe{
+	display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    color: #02101c;
+    
+    width: 331px;
+    height: 52px;
+    padding-top: 14px;
+    background-color: #e6e6e6;
+    transition: all .2s ease-in-out;
+
+}
+ 	
+.bottom-link{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 70px;
+
+}
+.qwe:hover{
+	 background-color: #c8c8c8;
+}
+
+.auth-img{
+	margin: auto;
+	display: flex;
+	margin-bottom: 27px;
+
+}

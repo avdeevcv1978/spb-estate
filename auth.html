@@ -11,7 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700" />
 	<link rel="stylesheet" href="./css/normalize.css">
 	<link rel="stylesheet" href="./css/style.css">
-	<link rel="stylesheet" href="./css/intlTelInput.css">
+	<link rel="stylesheet" href="./css/auth.css">
+	<link rel="stylesheet" href="build/css/intlTelInput.css">
+   <link rel="stylesheet" href="build/css/demo.css">
 
 </head>
 
@@ -20,10 +22,85 @@
 
 <body>
 
-<input type="tel" id="phone">
+<div class="auth">
+	
 
 
-<script src="js/intlTelInput.min.js"></script>
+	<a href="" class="auth-link2">
+			<img class="auth-logo" src="img/top-logo.svg" alt="logo: Недвижимость СПБ">
+	</a>
+
+	<div class="auth-block">
+		
+		<div class="auth-content">
+			<h2>Войти в личный кабинет</h1>
+				
+	<form action="#" class="auth-form">
+
+		 <div class="phone">
+			 <label>Ваш телефон</label>
+			<input id="phone" name="phone" type="tel" placeholder="">
+		 </div>
+		
+
+<div class="password">
+	<label>Пароль</label>
+	<input type="password" id="password-input" placeholder="Введите пароль" name="password">
+	<a href="javascript://" class="password-control"></a>
+</div>
+	    
+	   
+	        
+	</form>
+	<button class="btn btn-primary" type="submit">Войти</button>
+	<ul class="auth-list" >
+		<li><a href="">Забыли пароль</a></li>
+		<li><a href="">Войти по email</a></li>
+	</ul>
+
+		</div>
+		
+		
+	</div>
+<!-- auth-block -->
+<div class="bottom-link">
+	<a href="" class="qwe">Зарегистрироваться</a>
+</div>
+
+<img class="auth-img" src="img/auth/footer-logo.svg" alt="">
+
+<div class="personal">
+	<a class="personal-link" href="">Защита персональных данных</a>
+	<a class="personal-link" href="">Условия использования сервиса</a>
+</div>
+
+
+</div>
+<!-- auth -->
+
+ 
+
+
+<script>
+
+// $('body').on('click', '.password-control', function(){
+//   if ($('#password-input').attr('type') == 'password'){
+//     $(this).addClass('view');
+//     $('#password-input').attr('type', 'text');
+//   } else {
+//     $(this).removeClass('view');
+//     $('#password-input').attr('type', 'password');
+//   }
+//   return false;
+// });
+
+    
+
+  </script>
+
+
+<script src="build/js/intlTelInput.js"></script>
+
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

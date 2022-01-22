@@ -40,6 +40,7 @@ $(document).ready(function(){
 });
 
 
+
  $(document).ready(function(){  //дожидаемся загрузки страницы
     $('#btn1').on("click", function(){  //вешаем событие на клик по кнопке id="btn1"
         $('#text').toggle(); //включает/выключает элемент id="text"
@@ -57,5 +58,22 @@ $(document).ready(function(){
 // $("#telephone").intlTelInput({
 //   // options here
 // });
+
+
+
+// Авторизация в форме пароль включение показа пароля
+
+$('body').on('click', '.password-control', function(){
+  if ($('#password-input').attr('type') == 'password'){
+    $(this).addClass('view');
+    $('#password-input').attr('type', 'text');
+  } else {
+    $(this).removeClass('view');
+    $('#password-input').attr('type', 'password');
+  }
+  return false;
+});
+
+
 
 

@@ -6,6 +6,7 @@ html{
 
 *{
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
 	
 }
 
@@ -370,7 +371,7 @@ ul{
 }
 
 
-form{
+.form-news{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -380,7 +381,7 @@ form{
 
 }
 
-form:before{
+.form-news:before{
 content: '';
 display: block;
 width: 130px;
@@ -392,7 +393,7 @@ background-color: #c5a47e;
 }
 
 
-form input{
+.form input{
 	width: 266px;
 	padding: 10px 13px 9px 13px;
 	margin: 0;
@@ -803,19 +804,25 @@ padding-bottom: 0px;
     padding-top: 11px;
 }
 
-
-form {
-    padding-bottom: 43px;
+.form-news{
+  padding-bottom: 43px;
 }
+
+/*form {
+    padding-bottom: 43px;
+}*/
   .news-descr{
     justify-content: space-around;
   }
-  form:before{
+
+.form-news:before{
     top: 48%;
    }
-   /*form{
-    justify-content: center;
-   }*/
+
+ /* form:before{
+    top: 48%;
+   }
+   */
 .news h1{
   font-size: 25px;
 }
@@ -902,13 +909,23 @@ padding-top: 35px;
     line-height: 28px;
     padding-bottom: 23px;
   }
-  form:before{
+
+.form-news:before{
     content: '';
     display: block;
     width: 0px;
     height: 0px;
    }
-   form{
+
+ /* form:before{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+   }*/
+
+
+   .form-news{
     justify-content: center;
     padding-top: 54px;
    }
@@ -1035,12 +1052,13 @@ padding-left: 17px;
   display: flex;
   justify-content: center;
 }
-form:before {
+
+.form-news:before {
     content: '';
     width: 0px;
     height: 0px;
    }
-   form{
+   .form-news{
     justify-content: center;
     padding-bottom: 27px;
     padding-top: 25px;

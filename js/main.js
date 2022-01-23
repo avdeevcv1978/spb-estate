@@ -39,7 +39,7 @@ $(document).ready(function(){
 
 });
 
-
+// --------------открытие закрытие секции Пдробнее-----------------
 
  $(document).ready(function(){  //дожидаемся загрузки страницы
     $('#btn1').on("click", function(){  //вешаем событие на клик по кнопке id="btn1"
@@ -49,16 +49,18 @@ $(document).ready(function(){
 });
 
 
-  var input = document.querySelector("#phone");
-  window.intlTelInput(input, {
-    // any initialisation options go here
-  });
+  // var input = document.querySelector("#phone");
+  // window.intlTelInput(input, {
+    
+  // });
 
 // // jQuery 
 // $("#telephone").intlTelInput({
 //   // options here
 // });
 
+
+// --------------открытие закрытие секции Пдробнее-----------------
 
 
 // Авторизация в форме пароль включение показа пароля
@@ -74,6 +76,14 @@ $('body').on('click', '.password-control', function(){
   return false;
 });
 
+// -----------------------------------------------
 
 
+
+$(document).ready(function(){  //дожидаемся загрузки страницы
+    $('#icon-bef').on("click", function(){  //вешаем событие на клик по кнопке id=""
+        $('#icon-aft').toggle(); //включает/выключает элемент id="text"
+        // $(this).remove(); Удаление этого элемента
+    });
+});
 

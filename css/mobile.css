@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+	
+}
+
+.hidden-search-menu{
+				display: flex;
+				justify-content: space-around;
+    			margin-bottom: 25px;
+
+			}
+
+			.search{
+				border-left: 2px solid rgba(145, 145, 144, .2);
+    			border-right: 2px solid rgba(145, 145, 144, .2);
+    			padding-left: 20px;
+    			padding-right: 20px;
+			}
+
+			
+
+			.hidden-search-menu a{
+				text-decoration: none;
+			}
+
+			.hidden-search-menu span{
+				color: #1e252d;
+    			letter-spacing: -.1px;
+    			font: 400 14px/12px 'PT Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+
+			}
+			.fa{
+				color: #1e252d;
+    		}
+
+
+    		.hidden-search-menu2{
+    			padding: 0 20px;
+    			letter-spacing: -1px;
+    			box-shadow: 0 2px 0 0 rgb(198 204 207 / 45%);
+    			display: flex;
+				justify-content: space-between;
+			}
+
+			.hidden-search-menu2 a{
+				text-decoration: none;
+    			padding-bottom: 14px;
+
+				
+			}
+
+			.compl{
+				color: #a68a6a;
+    			box-shadow: 0 2px 0 0 #a68a6a;
+			}
+
+			.flat{
+				display: inline-block;
+			    vertical-align: top;
+			    color: #1e252d;
+			    text-align: center;
+			    font: 700 19px/26px 'PT Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+			    
+			}
+			
+
+			.card{
+				display: flex;
+				padding-left: 20px;
+
+			}
+
+			.title{
+				margin: 0 0 4px;
+			}
+
+			.list-title{
+				padding-left: 20px;
+    			margin-top: 25px;
+
+			}
+
+			.list-flat p{
+				margin: 0;
+				color: #a68a6a;
+    			letter-spacing: 0px;
+    			font: 400 16px/16px 'PT Serif', Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    			
+			}
+
+			.card img{
+				width: 125px;
+				height: 90px;
+			}
+			
+			.name{
+				color: #1e252d;
+    			white-space: nowrap;
+    			letter-spacing: -.5px;
+    			font: 400 14px/22px 'PT Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    			padding: 0px;
+    			
+			}
+
+			.sbname{
+				
+			    color: #919190;
+			    letter-spacing: -.1px;
+			    font: 400 12px/22px 'PT Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+			}
+			.address, .subway{
+				color: #494e52;
+			    letter-spacing: -.5px;
+			    font: 400 12px/23px 'PT Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+			}
+			
+			.card-descr{
+				padding: 0 20px 0 15px;
+			}
+
+			.icon{
+				height: 26px;
+				width: 26px;
+				background-color: #c5a47e;
+				position: relative;
+				right: -107px;
+				bottom: -34px;
+				z-index: 1;
+			}
+
+			.bef:before{
+				content: '';
+				background-image: url(img/mobile/m-star.svg);
+				background-repeat: no-repeat;
+				padding-right: 26px;
+				position: relative;
+				top: 3px;
+    			left: -1px;
+			}
+
+			.aft:after{
+				content: '';
+				background-image: url(img/mobile/w-star.svg);
+				background-repeat: no-repeat;
+				padding-right: 26px;
+				position: relative;
+				top: 3px;
+    			left: -24px;
+    			display: none;
+			}
+

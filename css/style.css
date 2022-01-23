@@ -122,7 +122,7 @@ padding-right: 10px;
 .btn-burger{
 
     width: 28px;
-    height: 2px;
+    height: 3px;
     /*position: absolute;*/
     background-color: #A68A6A;
     top: 27%;
@@ -134,7 +134,7 @@ padding-right: 10px;
 .btn-burger::after {
     content: "";
     width: 100%;
-    height: 100%;
+    height: 3px;
     background-color: #A68A6A;
     position: absolute;
     left: 0;
@@ -144,7 +144,7 @@ padding-right: 10px;
 .btn-burger::before {
     content: "";
     width: 100%;
-    height: 100%;
+    height: 3px;
     background-color: #A68A6A;
     position: absolute;
     left: 0;
@@ -720,18 +720,6 @@ position: absolute;
 }
 
 
-
-
-
-/*.news h1{
-  margin: 0;
-     font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    font-family: "PT Serif", Arial, "Helvetica Neue", Helvetica, sans-serif;
-
-}*/
-
 .news-descr a{
   text-decoration: none;
   
@@ -765,12 +753,15 @@ ul{
   }
   
 
-
-
 /*--------------section news hidden end------------------------*/
 
 
 @media (min-width: 992px) and (max-width: 1199px){
+
+.hiddin-mobile{
+  display: none;
+}
+
   .header-navbar{
 
     /*padding-left: 15px;
@@ -851,6 +842,10 @@ margin-bottom: 50px;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+.hiddin-mobile{
+  display: none;
+}
   .header .wrapper{
   padding-left: 15px;
   padding-right: 15px;
@@ -968,7 +963,8 @@ padding-top: 35px;
 
 
 @media (min-width: 480px) and (max-width: 767.99px) {
-  .navbar-menu{
+  .navbar-menu,
+  .hiddin-mobile {
     display: none;
   }
 
@@ -1135,7 +1131,8 @@ footer img{
 padding-top: 5px;
    }
    .header-navbar {
-    /*justify-content: space-around;*/
+    padding-left: 10px;
+
 }
 
 .owl-theme .owl-nav {
@@ -1170,6 +1167,11 @@ padding-top: 5px;
 
 @media (min-width: 320px) and (max-width: 479px) {
 
+
+  .hidden-search-menu{
+    display: block
+  }
+
 .contacts .navbar-phone,
  nav, 
  .fixed,
@@ -1180,9 +1182,14 @@ padding-top: 5px;
 .owl-theme .owl-nav,
 .foot-info,
 /*.footer-list-2,*/
-.navigation    
-  {
+.navigation,
+.slider      {
   display: none;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: space-around;
 }
 
 .burger{

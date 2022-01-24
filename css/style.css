@@ -7,36 +7,36 @@ html{
 *{
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-	
+  
 }
 
 body{
   font-family: "PT Serif", Arial, "Helvetica Neue", Helvetica, sans-serif;
-	
+  
 }
 
 .header{
-	padding: 20px 0px 22px;
-	background-image: url(../img/bg-header.png);
+  padding: 20px 0px 22px;
+  background-image: url(../img/bg-header.png);
 
 }
 
 .wrapper{
-	max-width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
  /* overflow: hidden;*/
   
   }
 
 .header-navbar{
-	display: flex;
+  display: flex;
   align-items: flex-end;
 }
 
  .navbar-phone{
- 	text-decoration: none;
- 	cursor: pointer;
- 	font-family: "PT Serif", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "PT Serif", Arial, "Helvetica Neue", Helvetica, sans-serif;
 font-size: 27px;
 font-weight: 400;
 font-style: normal;
@@ -47,10 +47,10 @@ letter-spacing: 0em;
 
 
 .logo2{
-	height: 51px;
+  height: 51px;
   padding-right: 65px;
 
-	
+  
 }
 
 nav{
@@ -59,20 +59,20 @@ margin-right: 0px;
 }
 
 .navbar-menu{
-	display: flex;
-	margin: 0 ;
-	padding: 0;
-	justify-content: space-between;
+  display: flex;
+  margin: 0 ;
+  padding: 0;
+  justify-content: space-between;
 }
 
 nav ul li{
-	list-style: none;	
+  list-style: none; 
   margin-left: 40px;
   margin-right: 40px;
 }
 
 nav ul li:last-child{
-	margin-right: 0px;
+  margin-right: 0px;
 }
 
 nav ul li a{
@@ -165,7 +165,7 @@ padding-right: 10px;
 
 
  .slider{
- 	max-height:371px;
+  max-height:371px;
   /*max-height:296px;*/
   /*position: relative;*/
 
@@ -174,10 +174,10 @@ padding-right: 10px;
 
 
  .owl-theme .owl-dots .owl-dot span {
-	/*background: red !important;*/
-	width: 14px !important;
-	height: 14px !important;
-	}
+  /*background: red !important;*/
+  width: 14px !important;
+  height: 14px !important;
+  }
 
 
 
@@ -193,9 +193,9 @@ background-color: unset !important;
 
 
 .owl-theme .owl-nav{
-	
-	
-	display: flex;
+  
+  
+  display: flex;
   justify-content: space-between;
   position: relative;
   top: -194px;
@@ -204,8 +204,8 @@ background-color: unset !important;
 }
 
 .slider .owl-dots{
-	position: relative;
-	top: -144px;
+  position: relative;
+  top: -144px;
   padding-bottom: 15px;
 
 }
@@ -214,43 +214,43 @@ background-color: unset !important;
 
 .slider2,.slider {
 
-	background-color: #525253;
+  background-color: #525253;
 }
 
 .slider2-title{
-	margin: 0;
+  margin: 0;
 }
 
 .slider2 .owl-dots{
-	  padding-bottom: 15px;
+    padding-bottom: 15px;
 
 }
 
 .slider2-descr{
-	margin: 0;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding-bottom: 31px;
 
 }
 
 .slider2 h2{
-	color: #fff;
+  color: #fff;
   letter-spacing: -.4px;
   
   }
 
 
 /*.slider2-descr p{
-	margin: 0;
+  margin: 0;
 }*/
   .slider2-descr a{
 
-  	color: #fff;
-  	text-decoration: none;
-  	cursor: pointer;
-  	font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
     font-stretch: normal;
     font-size: 15px;
     line-height: 46px;
@@ -263,7 +263,7 @@ background-color: unset !important;
 }
 
 .name a{
-	color: #fff;
+  color: #fff;
   text-decoration: none;
   font-weight: 400;
   font-stretch: normal;
@@ -274,8 +274,8 @@ background-color: unset !important;
 
 
 .name p{
-	color: #fff;
-	margin: 0;
+  color: #fff;
+  margin: 0;
   padding-top: 32px;
   font-weight: 300;
   font-size: 17px;
@@ -289,13 +289,13 @@ background-color: unset !important;
 /********************section class="news"******************/
 
 .news{
-	background-color: #f2f2f2;
+  background-color: #f2f2f2;
   overflow: hidden
 
 }
 
 .news-img img{
-	height: 100%;
+  height: 100%;
   }
 
 .news-img{
@@ -311,10 +311,10 @@ width: 50%;
 
 
 .news-descr{
-	margin: 0;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 39px;
   margin-top: 28px;
 
@@ -323,8 +323,8 @@ width: 50%;
 
 
 .news h1{
-	margin: 0;
-	   font-weight: 400;
+  margin: 0;
+     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
     font-family: "PT Serif", Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -332,8 +332,8 @@ width: 50%;
 }
 
 .news-descr a{
-	text-decoration: none;
-	
+  text-decoration: none;
+  
     color: #1e252d;
     font-weight: 400;
     font-size: 15px;
@@ -342,27 +342,27 @@ width: 50%;
 }
 
 ul{
-	padding: 0;
-	overflow: hidden;
-	/*margin-bottom: 174px;*/
+  padding: 0;
+  overflow: hidden;
+  /*margin-bottom: 174px;*/
   margin: 0;
 }
 .news li{
-	display: flex;
+  display: flex;
 }
 
 .news li a{
-	text-decoration: none;
-	color: #1e252d;
+  text-decoration: none;
+  color: #1e252d;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
 
 
   }
-	
+  
 .news li p{
-	color: #919190;
+  color: #919190;
     font-weight: 300;
     font-stretch: normal;
     font-size: 17px;
@@ -394,10 +394,10 @@ background-color: #c5a47e;
 
 
 .form input{
-	width: 266px;
-	padding: 10px 13px 9px 13px;
-	margin: 0;
-	color: #1e252d;
+  width: 266px;
+  padding: 10px 13px 9px 13px;
+  margin: 0;
+  color: #1e252d;
   letter-spacing: -.1px;
   font: 300 14px/15px 'PT Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
   outline: 0 none;
@@ -435,7 +435,7 @@ background: #eaeaea;
 /********************section class="information"******************/
 
 .information h1{
-	margin:0;
+  margin:0;
   font-weight: 702;
   font-size: 19px;
   line-height: 26px;
@@ -447,8 +447,8 @@ background: #eaeaea;
 }
 
 .information p{
-	margin:0;
-	color: #1e252d;
+  margin:0;
+  color: #1e252d;
   letter-spacing: -.2px;
   font-weight: 300;
   font-size: 16px;
@@ -1172,7 +1172,7 @@ padding-top: 5px;
     display: block
   }
 
-.contacts .navbar-phone,
+
  nav, 
  .fixed,
  .navigation h4:after,
@@ -1181,10 +1181,20 @@ padding-top: 5px;
  .show-text,
 .owl-theme .owl-nav,
 .foot-info,
-/*.footer-list-2,*/
+.navbar-phone,
+.footer-link,
 .navigation,
 .slider      {
   display: none;
+}
+
+.hidden-search-menu{
+  
+  
+  /*position: fixed;
+  top: 0;
+  box-shadow: 0px 30px 80px 0px rgb(107 108 110 / 20%);*/
+
 }
 
 .header-navbar {
@@ -1225,29 +1235,45 @@ padding-top: 5px;
 
    .footer-wrap {
     display: flex;
-   
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  
 } 
 
 .footer{
   background-color: #f2f2f2;
   margin: 0px;
 }
-.navbar-phone{
-  display: block;
-  padding-bottom: 6px;
 
-}
   .footer-list-2 {
     display: flex;
     flex-wrap: wrap-reverse;
+    padding: 0px;
 
+}
 
+.footer-list{
+  padding: 0px;
 }
 .logo-foot{
   padding-left: 10px;
 }
 .footer span{
   color: red;
-}
+  letter-spacing: -0.1px;
 }
 
+.navbar-phone-footer{
+  letter-spacing: -.9px;
+    font: 400 22px/22px 'PT Serif', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "PT Serif", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 23px;
+    color: #FF0D29;
+    
+    
+}
+
+}

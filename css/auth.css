@@ -10,6 +10,9 @@ body{
 	
 }
 
+.modal-auth{
+	/*display: none;*/
+}
 
 .password {
 	position: relative;
@@ -72,7 +75,7 @@ body{
 }
  	.auth-content{
  		width: 331px;
- 		height: 348px;
+ 		height: 392px;
  		box-shadow: 0 0 250px 2px #dedede;
  		                 
  	}
@@ -139,3 +142,12 @@ border-bottom: 2px solid rgba(2,16,28,.25);
 	margin-bottom: 27px;
 
 }
+
+.close{
+      display: flex;
+      justify-content: flex-end;
+      color: black;
+        font-size: 33px;
+        padding-right: 6px;
+        cursor: pointer;
+    }

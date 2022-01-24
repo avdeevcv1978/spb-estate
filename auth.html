@@ -22,20 +22,41 @@
 
 <body>
 
-<div class="auth">
-	
+<div class="modal-auth">
 
+	<!-- <span class="close">×</span> -->
+
+	<style type="text/css">
+		.close{
+			display: flex;
+			justify-content: flex-end;
+			color: black;
+    	    font-size: 33px;
+		    padding-right: 6px;
+		    cursor: pointer;
+		  
+		}
+
+	</style>
+	
 
 	<a href="" class="auth-link2">
 			<img class="auth-logo" src="img/top-logo.svg" alt="logo: Недвижимость СПБ">
 	</a>
 
 	<div class="auth-block">
+
+
 		
-		<div class="auth-content">
+		<div class="auth-content" id="myModal">
+
+			<span class="close">×</span>
+
 			<h2>Войти в личный кабинет</h1>
 				
 	<form action="#" class="auth-form">
+
+
 
 		 <div class="phone">
 			 <label>Ваш телефон</label>
@@ -81,22 +102,7 @@
  
 
 
-<script>
 
-// $('body').on('click', '.password-control', function(){
-//   if ($('#password-input').attr('type') == 'password'){
-//     $(this).addClass('view');
-//     $('#password-input').attr('type', 'text');
-//   } else {
-//     $(this).removeClass('view');
-//     $('#password-input').attr('type', 'password');
-//   }
-//   return false;
-// });
-
-    
-
-  </script>
 
 
 <script src="build/js/intlTelInput.js"></script>

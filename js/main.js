@@ -49,16 +49,7 @@ $(document).ready(function(){
 });
 
 
-  // var input = document.querySelector("#phone");
-  // window.intlTelInput(input, {
-    
-  // });
-
-// // jQuery 
-// $("#telephone").intlTelInput({
-//   // options here
-// });
-
+  
 
 // --------------открытие закрытие секции Пдробнее-----------------
 
@@ -79,11 +70,14 @@ $('body').on('click', '.password-control', function(){
 // -----------------------------------------------
 
 
+// Появление звездочки на картинке на моб версии
 
-$(document).ready(function(){  //дожидаемся загрузки страницы
-    $('#icon-bef').on("click", function(){  //вешаем событие на клик по кнопке id=""
-        $('#icon-aft').toggle(); //включает/выключает элемент id="text"
-        // $(this).remove(); Удаление этого элемента
-    });
-});
 
+$(document).ready(function(){  
+          $('#btn2').on("click", function(){  
+              $('#icon-aft').toggle(); 
+             
+          });
+      });
+
+// -----------------------------------------------

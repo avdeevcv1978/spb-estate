@@ -149,9 +149,14 @@
     			left: -26px;
    			}
 */
+			/*.aft-hidden{
+				display: none;
+			}*/
+
 			.aft-hidden{
 				display: none;
 			}
+			
 
 			/*.aft:after{
 				content: '1';

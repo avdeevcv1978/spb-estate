@@ -73,11 +73,47 @@ $('body').on('click', '.password-control', function(){
 // Появление звездочки на картинке на моб версии
 
 
-$(document).ready(function(){  
-          $('#btn2').on("click", function(){  
-              $('#icon-aft').toggle(); 
+// $(document).ready(function(){  
+//           $('#btn2').on("click", function(){  
+//                $('#icon-aft').toggle(); 
              
-          });
-      });
+             
+//           });
+//       });
+
+
+// -------------------------------
+
+$(".bef").click(function(e) {
+  e.preventDefault();
+   $(".bef").not(this).removeClass('aft-hidden');
+   $(this).toggleClass('aft-hidden');
+  
+})
+
+
 
 // -----------------------------------------------
+
+
+
+
+// const buttons = document.querySelectorAll('.icon');
+// const fullStar = document.querySelectorAll('.aft');
+
+
+// buttons.forEach((btnItem, index) => {      
+//   btnItem.addEventListener('click', () => {
+//     buttons.forEach((btnItem) => {
+    
+//    })
+
+
+//     fullStar.forEach((listItem) => {  //перебираем весь список listItem перебираемый элемент
+//       listItem.classList.toggle('aft-hidden') //добавим всем кнопкам класс hidden
+
+// })
+    
+
+// })
+// })

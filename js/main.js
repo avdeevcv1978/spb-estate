@@ -117,3 +117,19 @@ $(".bef").click(function(e) {
 
 // })
 // })
+
+
+// ------------------вызов меню бургер--------------
+
+ $(document).ready(function() {
+    $('.burger').click(function() {
+        $('.burger').toggleClass('open-menu');
+    });
+});
+
+
+
+// ------------------вызов меню бургер e--------------end
+
+
+

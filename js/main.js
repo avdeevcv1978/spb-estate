@@ -132,4 +132,18 @@ $(".bef").click(function(e) {
 // ------------------вызов меню бургер e--------------end
 
 
+         // Бургер справа
 
+
+
+$('.burger').on('click', function(e) {
+  e.preventDefault();
+  $('.navbar').toggleClass('navbar_active');
+  $('.navbar-menu').toggleClass('navbar-menu_active');
+  $('.navbar-menu-list').toggleClass('navbar-menu-list_active');
+  $('.fixed-wrapper').toggleClass('fixed-wrapper_active');
+  $('.navbar-menu-link').toggleClass('navbar-menu-link_active');
+  $('.auth').toggleClass('auth_active');
+})
+
+ // Бургер справа

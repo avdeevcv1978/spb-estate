@@ -186,6 +186,56 @@ padding-right: 10px;
           /**********burger end*********/
 
 
+        /**************выдвигается меню справа****************/
+
+         /* .navbar_active{
+      position: fixed;
+        left: 0;top: 0;
+        z-index: 99;
+        width: 80%;
+        height: 100vh;
+        
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        transition: 0.5s;
+        transform: translateX(-100%);
+        transform: translateX(0%);
+        display: flex;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .navbar-menu_active{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar-menu-list_active{
+      
+      padding-bottom: 50px;
+      
+    }
+
+    .fixed-wrapper_active{
+      position: sticky;
+    }
+
+    .navbar-menu-link_active{
+      font-size: 22px;
+    }
+
+    .auth_active{
+      display: none;
+    }
+*/
+
+
+        
+
+        /**************выдвигается меню справа конец****************/
+
+
 
 
 /***************************header end*************************/
@@ -888,7 +938,8 @@ margin-bottom: 50px;
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-.hiddin-mobile{
+.hiddin-mobile,
+.auth{
   display: none;
 }
   .header .wrapper{
@@ -1002,6 +1053,7 @@ padding-top: 35px;
     display: none;
   }
 
+  
 }
 
   
@@ -1010,9 +1062,12 @@ padding-top: 35px;
 @media (min-width: 478.99px) and (max-width: 767.99px) {
   .navbar-menu,
   .hiddin-mobile,
-  .navbar-phone-footer {
+  .navbar-phone-footer,
+  .auth  {
     display: none;
   }
+
+
 
   .info{
     display: none;
@@ -1106,9 +1161,9 @@ padding-left: 17px;
     padding-top: 25px;
 
    }
-   nav{
+   /*nav{
     display: none;
-   }
+   }*/
 
    .slider2-descr p{
     display: none;
@@ -1191,6 +1246,9 @@ padding-top: 5px;
     display: block;
     right: 5%;
     position: absolute;
+    /*position: fixed;*/
+    z-index: 10;
+
 }
 
 
@@ -1233,7 +1291,8 @@ padding-top: 5px;
 .navbar-phone,
 .footer-link,
 .navigation,
-.slider      {
+.slider ,
+.auth     {
   display: none;
 }
 
@@ -1326,7 +1385,7 @@ padding-top: 5px;
 }
 
 
-
-
-
 }
+
+
+

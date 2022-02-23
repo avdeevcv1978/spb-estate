@@ -37,11 +37,11 @@
 				<a class="auth-link"href="auth.html">Личный кабинет</a>
 			</div>
 
-			<ul class="navbar-menu">
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Объекты</a></li>
-				<li><a href="#">Новости</a></li>
-				<li><a href="#">Контакты</a></li>
+			<ul class="navbar-menu ">
+				<li class="navbar-menu-list"><a class="navbar-menu-link"href="#">О компании</a></li>
+				<li class="navbar-menu-list"><a class="navbar-menu-link"href="#">Объекты</a></li>
+				<li class="navbar-menu-list"><a class="navbar-menu-link"href="#">Новости</a></li>
+				<li class="navbar-menu-list"><a class="navbar-menu-link"href="#">Контакты</a></li>
 			</ul>
 			
 		</nav>
@@ -50,11 +50,53 @@
 		
 	</div>
 
+	<style type="text/css">
+		
+		.navbar_active{
+			position: fixed;
+			  left: 0;top: 0;
+			  z-index: 99;
+			  width: 80%;
+			  height: 100vh;
+			  
+			  align-items: center;
+			  justify-content: center;
+			  background-color: #fff;
+			  transition: 0.5s;
+			  transform: translateX(-100%);
+			  transform: translateX(0%);
+			  display: flex;
+			}
+
+		.navbar-menu_active{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.navbar-menu-list_active{
+			
+			padding-bottom: 50px;
+			
+		}
+
+		.fixed-wrapper_active{
+			position: sticky;
+		}
+
+		.navbar-menu-link_active{
+			font-size: 22px;
+		}
+
+		.auth_active{
+			display: none;
+		}
+
+
+
+
+	</style>
 
 	
-
-
-  
 
 
 

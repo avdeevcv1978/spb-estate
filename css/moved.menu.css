@@ -1,0 +1,59 @@
+
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+	
+}
+
+body{
+  font-family: "PT Serif", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	
+}
+
+.navbar_active{
+      position: fixed;
+        left: 0;top: 0;
+        z-index: 99;
+        width: 80%;
+        height: 100vh;
+        
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        transition: 0.5s;
+        transform: translateX(-100%);
+        transform: translateX(0%);
+        flex-direction: column;
+        display: flex;
+    }
+
+    .navbar-menu_active{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar-menu-list_active{
+      
+      padding-bottom: 50px;
+      
+    }
+
+    .fixed-wrapper_active{
+      position: sticky!important;
+    }
+
+    .navbar-menu-link_active{
+      font-size: 22px;
+    }
+
+    .auth_active{
+      display: none;
+    }
+
+    .burger_active{
+    position: fixed;
+        left:70%;
+      top: 10%;
+        z-index: 99;
+    }
+

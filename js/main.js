@@ -144,6 +144,7 @@ $('.burger').on('click', function(e) {
   $('.fixed-wrapper').toggleClass('fixed-wrapper_active');
   $('.navbar-menu-link').toggleClass('navbar-menu-link_active');
   $('.auth').toggleClass('auth_active');
+  $('.burger').toggleClass('burger_active');
 })
 
  // Бургер справа

@@ -196,7 +196,7 @@ padding-right: 10px;
 
 
  .slider{
-  max-height:371px;
+  /*max-height:371px;*/
   /*max-height:296px;*/
   /*position: relative;*/
 
@@ -205,7 +205,7 @@ padding-right: 10px;
 
 
  .owl-theme .owl-dots .owl-dot span {
-  /*background: red !important;*/
+  
   width: 14px !important;
   height: 14px !important;
   }
@@ -223,7 +223,7 @@ background-color: unset !important;
 }
 
 
-.owl-theme .owl-nav{
+ /*.owl-nav{
   
   display: flex;
   justify-content: space-between;
@@ -232,8 +232,7 @@ background-color: unset !important;
 
   margin: 0 !important;
   border: 1px solid white;
-  /*position: absolute;
-  top: 10px;*/
+  
 }
 
 .slider .owl-dots{
@@ -241,7 +240,31 @@ background-color: unset !important;
   top: -144px;
   padding-bottom: 15px;
 
+}*/
+
+
+.owl-carousel {
+position: relative;
 }
+
+
+.owl-nav{
+  
+  display: flex;
+  justify-content: space-between;
+ position: absolute;
+  /*border: 1px solid red;*/
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+
+
+.owl-theme .owl-nav {
+    margin: 0!important;
+}
+ 
 
 /*****************Слайдер 2**********************/
 
@@ -807,10 +830,6 @@ ul{
   display: none;
 }
 
-.owl-theme .owl-nav {
-    
-    top: -306px;
-    }
 
     
 }
@@ -923,9 +942,8 @@ margin-bottom: 50px;
     .slider {
     max-height: 206px;
 }
-.owl-theme .owl-nav{
-  top: -158px
-}
+
+
 .slider2-descr{
 justify-content: space-around;
 padding-bottom: 0px;
@@ -1200,10 +1218,6 @@ padding-top: 5px;
    .header-navbar {
     padding-left: 10px;
 
-}
-
-.owl-theme .owl-nav {
-  top: -111px;
 }
 
 

@@ -59,8 +59,8 @@
 			}
 
 			.compl{
-				color: #a68a6a;
-    			box-shadow: 0 2px 0 0 #a68a6a;
+				color: #1e252d;
+    			
     			font: 700 19px/26px 'PT Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
 			}
 
@@ -150,9 +150,7 @@
     			left: -26px;
    			}
 */
-			/*.aft-hidden{
-				display: none;
-			}*/
+			
 
 			.aft-hidden{
 				display: none;
@@ -255,3 +253,15 @@
 }
 
 /*-- --------------mobile-moved-menu end---------------- --*/
+
+
+
+/* подсветка в мобильном меню */
+
+.moblink_active{
+color: #a68a6a;
+ box-shadow: 0 2px 0 0 #a68a6a;
+}
+
+
+/* подсветка в мобильном меню */

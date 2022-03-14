@@ -84,16 +84,23 @@ $('body').on('click', '.password-control', function(){
 
 // -------------------------------
 
-$(".bef").click(function(e) {
-  e.preventDefault();
-   $(".bef").not(this).removeClass('aft-hidden');
-   $(this).toggleClass('aft-hidden');
+// $(".bef").click(function(e) {
+//   e.preventDefault();
+//    $(".bef").not(this).removeClass('aft-hidden');
+//    $(this).toggleClass('aft-hidden');
   
-})
+// })
 
 
+$(document).ready(function(){  //дожидаемся загрузки страницы
+          $('#btn2').on("click", function(){  //вешаем событие на клик по кнопке id="btn1"
+              $('#icon-aft').toggle(); //включает/выключает элемент id="text"
+              
+          });
+      });
 
-// -----------------------------------------------
+
+//;----------------------------------------------
 
 
 
@@ -148,3 +155,21 @@ $('.burger').on('click', function(e) {
 })
 
  // Бургер справа
+
+
+ // переключение с подсветкой в мобильном меню hidden-search-menu mobile
+
+const menuMoblinks = document.querySelectorAll('.moblink');
+
+menuMoblinks.forEach((btnItem, index) => {      
+    btnItem.addEventListener('click', () => {
+        menuMoblinks.forEach((btnItem) => {
+        btnItem.classList.remove('moblink_active')
+    })
+        btnItem.classList.add('moblink_active')
+})
+})
+
+
+
+// переключение с подсветкой в мобильном меню hidden-search-menu mobile

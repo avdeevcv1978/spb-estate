@@ -157,19 +157,47 @@ $('.burger').on('click', function(e) {
  // Бургер справа
 
 
- // переключение с подсветкой в мобильном меню hidden-search-menu mobile
+ // выпадающие списки в мобильной версии
 
-const menuMoblinks = document.querySelectorAll('.moblink');
+// const menuMoblinks = document.querySelectorAll('.moblink');
 
-menuMoblinks.forEach((btnItem, index) => {      
-    btnItem.addEventListener('click', () => {
-        menuMoblinks.forEach((btnItem) => {
-        btnItem.classList.remove('moblink_active')
-    })
-        btnItem.classList.add('moblink_active')
-})
-})
+// menuMoblinks.forEach((btnItem, index) => {      
+//     btnItem.addEventListener('click', () => {
+//         menuMoblinks.forEach((btnItem) => {
+//         btnItem.classList.remove('moblink_active')
+//     })
+//         btnItem.classList.add('moblink_active')
+// })
+// })
+
+const tabsHandlerElems = document.querySelectorAll('[data-tabs-handler]')
+const tabsContentElems = document.querySelectorAll('[data-tabs-field]')
+
+for(let btn of tabsHandlerElems){
+ 
+  btn.addEventListener('click', () => {   //btn переменная в которую при каждой итерации будет попадать каждый перебираемый элемент
+    tabsHandlerElems.forEach(item => item.classList.remove('moblink_active'))  // - класс который меняем
+    btn.classList.add('moblink_active')  // по клику перебираем все кнопки и удаляем класс у всех кнопок
+    
+
+     
+      
+
+      tabsContentElems.forEach(content => {
+        if (content.dataset.tabsField === btn.dataset.tabsHandler){
+          content.classList.remove('hidden')
+        } else {
+          content.classList.add('hidden')
+        }
+
+      })
+
+      })
+    
+  }
+
+
+// выпадающие списки в мобильной версии
 
 
 
-// переключение с подсветкой в мобильном меню hidden-search-menu mobile

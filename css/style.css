@@ -826,8 +826,8 @@ ul{
 
 
 @media (min-width: 1199px){
-.hiddin-mobile,
-.hiddin-mobile-flat{
+.hiddin-mobile
+/*.hiddin-mobile-flat*/{
   display: none;
 }
 
@@ -840,7 +840,8 @@ ul{
 @media (min-width: 992px) and (max-width: 1199px){
 
 .hiddin-mobile,
-.hiddin-mobile-flat{
+/*.hiddin-mobile-flat,*/
+.mobil-hidden-list{
   display: none;
 }
 
@@ -926,8 +927,9 @@ margin-bottom: 50px;
 @media (min-width: 768px) and (max-width: 991px) {
 
 .hiddin-mobile,
-.hiddin-mobile-flat,
-.auth{
+/*.hiddin-mobile-flat,*/
+.auth,
+.mobil-hidden-list{
   display: none;
 }
   .header .wrapper{
@@ -1049,9 +1051,10 @@ padding-top: 35px;
 @media (min-width: 478.99px) and (max-width: 767.99px) {
   .navbar-menu,
   .hiddin-mobile,
-  .hiddin-mobile-flat,
+  /*.hiddin-mobile-flat,*/
   .navbar-phone-footer,
-  .auth  {
+  .auth,
+  .mobil-hidden-list  {
     display: none;
   }
 
@@ -1273,9 +1276,9 @@ padding-top: 5px;
 .navbar-phone,
 .footer-link,
 .navigation,
-.slider ,
-.auth,
-.hiddin-mobile-flat     {
+.slider,
+.auth
+/*.mobil-hidden-list*/    {
   display: none;
 }
 

@@ -113,14 +113,20 @@
 		<!-- hidden-search-menu -->
 
 		<div class="hidden-search-menu2">
-			<a class="moblink compl moblink_active" href="">31 ЖК</a>
-			<a class=" moblink flat "  href="#">1 220 квартир</a>
-			<a class=" moblink" href="#">
+			<a class="moblink compl moblink_active" data-tabs-handler="apartment" href="">31 ЖК</a>
+			<a class="moblink flat"  data-tabs-handler="flet" href="#">1 220 квартир</a>
+			<a class="moblink" data-tabs-handler="search" href="#">
 				<i class="fa fa-sort-amount-desc" aria-hidden="true"></i>
 			</a>			
 		</div>
 		<!-- hidden-search-menu2 -->
 
+		</div>
+<!-- hiddin-mobile -->
+
+		<!------------------------ блок мобильного меню ЖК  ----------------->
+
+	<div class="mobil-hidden-list" data-tabs-field="apartment">
 		<div class="list-flat">
 			<div class="list-title">
 				<h3 class="title">UNO</h3>
@@ -288,19 +294,21 @@
 		<!-- list-flat -->
 			
 
-		
+	</div>
+	<!-- class="mobil-hidden-list" data-tabs-field="apartment"> -->
 
 
 
-</div>
-<!-- hiddin-mobile -->
+		<!----------------- блок мобильного меню ЖК конец  ----------------->
+
+				
 
 
+ <!-- ---------------hidden-search-menu mobile end-------------------- -->
 		    
-    <!-- ---------------hidden-search-menu mobile end-------------------- -->
-	
-<!-- появление страницы со списком планировки квартир -->
-<div class="hiddin-mobile-flat">
+   <!-- появление страницы со списком планировки квартир 1220 вкартир-->
+   <div class="mobil-hidden-list flat hidden"  data-tabs-field="flat"> 
+
 		
 		<div class="list-flat">
 			<div class="list-title">
@@ -318,11 +326,7 @@
 				
 			</div>
 
-
 	
-
-
-
 			<div class="card">
 				<div class="card-img">
 					<a href="">
@@ -472,13 +476,72 @@
 		
 		</div>
 		<!-- list-flat -->
+
+   	
+   </div>
+   <!-- mobil-hidden-list 1220 кв -->
+
+	
+<!-- появление страницы со списком планировки квартир 1220 квартир конец-->
+
 		
+
+
+<!-- появление страницы со списком поиска SEARCH-->
+
+
+	<div class="mobil-hidden-list search hidden"  data-tabs-field="search">
+		
+		<div class="list-flat">
+			<div class="list-title">
+				<h3 class="title">Студия 129.4 кв.м</h3>
+				<p class="">Цена по запросу</p>
+			</div>
+			<div class="icon" id="btn2">
+				<span class="bef " id="icon-bef">
+					<img src="img/mobile/m-star.svg" alt="">
+				</span>
+
+				<span class="aft " id="icon-aft">
+						<img src="img/mobile/w-star.svg" alt="">
+				</span>
+				
+			</div>
+
+
+	
+
+
+
+			<div class="card">
+				<div class="card-img">
+					<a href="">
+						<img src="img/mobflat/flat1.jpg" alt="">
+					</a>
+				</div>
+				
+				<div class="card-descr">
+					<ul>
+						<li class="name">ЖК Москва</li>
+						<li class="Сдан"> </li>
+						<li class="address">Площадь Восстания</li>
+						<li class="subway">Лиговский 56Б	</li>
+					</ul>
+				</div>
+								
+			</div>
+			<!-- card -->
+		
+		</div>
+		<!-- list-flat -->
+
+	</div>
+	<!-- mobil-hidden-list -->
+
+			<!-- появление страницы со списком ппоиска  SEARCH конец-->
+
 </div>
 <!-- hiddin-mobile -->
-
-
-
-<!-- появление страницы со списком планировки квартир конец-->
 
 	<div class="slider2">
 		<div class="wrapper">

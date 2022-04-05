@@ -76,28 +76,51 @@ $('body').on('click', '.password-control', function(){
 // $(document).ready(function(){  
 //           $('#btn2').on("click", function(){  
 //                $('#icon-aft').toggle(); 
-             
-             
+                         
 //           });
 //       });
+
+$(document).ready(function(){  //дожидаемся загрузки страницы
+         $('.icon').on("click", function(){                            
+              $(this).find('.aft-hidden').toggle();                                          
+              
+          });
+      });
+ 
+
+
 
 
 // -------------------------------
 
-// $(".bef").click(function(e) {
-//   e.preventDefault();
-//    $(".bef").not(this).removeClass('aft-hidden');
-//    $(this).toggleClass('aft-hidden');
-  
-// })
 
 
-$(document).ready(function(){  //дожидаемся загрузки страницы
-          $('#btn2').on("click", function(){  //вешаем событие на клик по кнопке id="btn1"
-              $('#icon-aft').toggle(); //включает/выключает элемент id="text"
-              
-          });
-      });
+
+
+
+
+const button = document.querySelectorAll('.icon');
+
+function showConsole() {
+
+    console.log('Ура!');
+}
+
+
+button.forEach(buttonItem => {
+    buttonItem.addEventListener("click", showConsole);
+    
+});
+// -----------------------
+
+
+
+// -------------------------
+
+
+
+
+
 
 
 //;----------------------------------------------
@@ -195,6 +218,9 @@ for(let btn of tabsHandlerElems){
       })
     
   }
+
+
+
 
 
 // выпадающие списки в мобильной версии
